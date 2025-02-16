@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Slider</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="../assets/images/slide1.jpg" alt="Minecraft Server Image 1">
+                <div class="caption">Welcome to Our Minecraft Server!</div>
+            </div>
+            <div class="slide">
+                <img src="../assets/images/slide2.jpg" alt="Minecraft Server Image 2">
+                <div class="caption">Join us for exciting adventures!</div>
+            </div>
+            <div class="slide">
+                <img src="../assets/images/slide3.jpg" alt="Minecraft Server Image 3">
+                <div class="caption">Explore our custom worlds!</div>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
